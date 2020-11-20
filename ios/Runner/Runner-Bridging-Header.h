@@ -1,0 +1,5 @@
+#import "GeneratedPluginRegistrant.h"
+#import "FlutterIosTextLabelRegistran.h"
+#import "MainViewController.h"
+#import "FlutterNativeRegistran.h"
+#import "FlutteriOSPlugin.h"
