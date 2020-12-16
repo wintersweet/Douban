@@ -22,19 +22,9 @@
 		D8B4F6E0247BAF4E007ECB56 /* FlutterNativePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4F6DF247BAF4E007ECB56 /* FlutterNativePlugin.m */; };
 		D8B4F6E3247BB23A007ECB56 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4F6E2247BB23A007ECB56 /* MainViewController.m */; };
 		D8B4F6E6247BB2A0007ECB56 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4F6E5247BB2A0007ECB56 /* TestViewController.m */; };
-		D8C8F99B256289AA00EAD236 /* RPSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8C8F995256289AA00EAD236 /* RPSDK.bundle */; };
-		D8C8F99C256289AA00EAD236 /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F996256289AA00EAD236 /* SecurityGuardSDK.framework */; };
-		D8C8F99D256289AA00EAD236 /* AliyunOSSiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F997256289AA00EAD236 /* AliyunOSSiOS.framework */; };
-		D8C8F99E256289AA00EAD236 /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F998256289AA00EAD236 /* SGMain.framework */; };
-		D8C8F99F256289AA00EAD236 /* RPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F999256289AA00EAD236 /* RPSDK.framework */; };
-		D8C8F9A0256289AA00EAD236 /* SGSecurityBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F99A256289AA00EAD236 /* SGSecurityBody.framework */; };
-		D8C8F9A2256289EB00EAD236 /* yw_1222_0769.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C8F9A1256289EB00EAD236 /* yw_1222_0769.jpg */; };
 		D8C8F9A425628A1D00EAD236 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F9A325628A1D00EAD236 /* CoreMotion.framework */; };
-		D8C8F9A625628A3E00EAD236 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F9A525628A3E00EAD236 /* CoreTelephony.framework */; };
 		D8C8F9A825628A4900EAD236 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F9A725628A4900EAD236 /* libc++.tbd */; };
 		D8C8F9AA25628A5D00EAD236 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F9A925628A5D00EAD236 /* libresolv.tbd */; };
-		D8C8F9AC25628A6700EAD236 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F9AB25628A6700EAD236 /* libz.tbd */; };
-		D8C8F9AE25628A7200EAD236 /* liblog_SystemConfiguration.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C8F9AD25628A7200EAD236 /* liblog_SystemConfiguration.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,13 +73,6 @@
 		D8B4F6E2247BB23A007ECB56 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D8B4F6E4247BB2A0007ECB56 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		D8B4F6E5247BB2A0007ECB56 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		D8C8F995256289AA00EAD236 /* RPSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RPSDK.bundle; sourceTree = "<group>"; };
-		D8C8F996256289AA00EAD236 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityGuardSDK.framework; sourceTree = "<group>"; };
-		D8C8F997256289AA00EAD236 /* AliyunOSSiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunOSSiOS.framework; sourceTree = "<group>"; };
-		D8C8F998256289AA00EAD236 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMain.framework; sourceTree = "<group>"; };
-		D8C8F999256289AA00EAD236 /* RPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RPSDK.framework; sourceTree = "<group>"; };
-		D8C8F99A256289AA00EAD236 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGSecurityBody.framework; sourceTree = "<group>"; };
-		D8C8F9A1256289EB00EAD236 /* yw_1222_0769.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222_0769.jpg; sourceTree = "<group>"; };
 		D8C8F9A325628A1D00EAD236 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		D8C8F9A525628A3E00EAD236 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		D8C8F9A725628A4900EAD236 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -104,18 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8C8F9AE25628A7200EAD236 /* liblog_SystemConfiguration.tbd in Frameworks */,
-				D8C8F9AC25628A6700EAD236 /* libz.tbd in Frameworks */,
 				D8C8F9AA25628A5D00EAD236 /* libresolv.tbd in Frameworks */,
 				D8C8F9A825628A4900EAD236 /* libc++.tbd in Frameworks */,
-				D8C8F9A625628A3E00EAD236 /* CoreTelephony.framework in Frameworks */,
 				D8C8F9A425628A1D00EAD236 /* CoreMotion.framework in Frameworks */,
-				D8C8F99F256289AA00EAD236 /* RPSDK.framework in Frameworks */,
 				C8DC3F73B25175B371BA0DFC /* Pods_Runner.framework in Frameworks */,
-				D8C8F9A0256289AA00EAD236 /* SGSecurityBody.framework in Frameworks */,
-				D8C8F99D256289AA00EAD236 /* AliyunOSSiOS.framework in Frameworks */,
-				D8C8F99C256289AA00EAD236 /* SecurityGuardSDK.framework in Frameworks */,
-				D8C8F99E256289AA00EAD236 /* SGMain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +130,6 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				D8C8F994256289AA00EAD236 /* Aliyun */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -192,20 +166,6 @@
 				F9EC9872AD4CC47828192252 /* Pods-Runner.profile.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D8C8F994256289AA00EAD236 /* Aliyun */ = {
-			isa = PBXGroup;
-			children = (
-				D8C8F9A1256289EB00EAD236 /* yw_1222_0769.jpg */,
-				D8C8F995256289AA00EAD236 /* RPSDK.bundle */,
-				D8C8F996256289AA00EAD236 /* SecurityGuardSDK.framework */,
-				D8C8F997256289AA00EAD236 /* AliyunOSSiOS.framework */,
-				D8C8F998256289AA00EAD236 /* SGMain.framework */,
-				D8C8F999256289AA00EAD236 /* RPSDK.framework */,
-				D8C8F99A256289AA00EAD236 /* SGSecurityBody.framework */,
-			);
-			path = Aliyun;
 			sourceTree = "<group>";
 		};
 		F1685E6A5D0BABCF30461938 /* Frameworks */ = {
@@ -289,8 +249,6 @@
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
-				D8C8F99B256289AA00EAD236 /* RPSDK.bundle in Resources */,
-				D8C8F9A2256289EB00EAD236 /* yw_1222_0769.jpg in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
 		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -468,7 +426,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
-					"$(PROJECT_DIR)/Runner/Aliyun",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -605,7 +562,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
-					"$(PROJECT_DIR)/Runner/Aliyun",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -635,7 +591,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
-					"$(PROJECT_DIR)/Runner/Aliyun",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
