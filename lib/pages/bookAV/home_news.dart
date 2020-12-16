@@ -1,9 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:my_douban/constants/constant.dart';
-import 'package:my_douban/constants/widget/style.dart';
+import 'package:my_douban/constants/loading_style.dart';
 import 'package:my_douban/models/news_model.dart';
-import 'package:my_douban/mywidgets/image/radius_img.dart';
 import 'package:my_douban/tools/dio_util.dart';
 
 class HomeNewsPage extends StatefulWidget {

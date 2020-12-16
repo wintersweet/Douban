@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_douban/mywidgets/search_text_field_widget.dart';
+import 'package:my_douban/widgets/search_text_field_widget.dart';
 import 'package:my_douban/util/screen_utils.dart';
 import 'package:my_douban/router.dart';
 

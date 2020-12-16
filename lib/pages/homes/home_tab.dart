@@ -2,9 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:my_douban/models/subject_entity.dart';
-import 'package:my_douban/mywidgets/image/radius_img.dart';
-import 'package:my_douban/mywidgets/search_text_field_widget.dart';
-import 'package:my_douban/mywidgets/video_widget.dart';
+import 'package:my_douban/widgets/image/radius_img.dart';
+import 'package:my_douban/widgets/search_text_field_widget.dart';
+import 'package:my_douban/widgets/video_widget.dart';
 import 'package:my_douban/constants/constant.dart';
 import 'package:my_douban/pages/login.register/login.dart';
 

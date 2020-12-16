@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_douban/main.dart';
-import 'package:my_douban/mywidgets/camera_page.dart';
+import 'package:my_douban/widgets/camera_page.dart';
 import 'package:my_douban/pages/homes/home_tab.dart';
-import 'package:quiver/io.dart';
-import 'package:my_douban/mywidgets/GradientButton.dart';
 import 'package:camera/camera.dart';
-import 'package:my_douban/mywidgets/example_camera.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
