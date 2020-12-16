@@ -2,9 +2,9 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:my_douban/models/subject_entity.dart';
-import 'package:my_douban/mywidgets/search_text_field_widget.dart';
 import 'package:my_douban/pages/bookAV/book_tab_bar_widget.dart';
 import 'package:my_douban/router.dart';
+import 'package:my_douban/widgets/search_text_field_widget.dart';
 import 'package:provider/provider.dart';
 
 class BoolAudioVideoPage extends StatefulWidget {

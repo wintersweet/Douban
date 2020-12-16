@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_douban/models/counter.dart';
-import 'package:my_douban/router.dart';
-import 'package:provider/provider.dart';
-import '../../global.dart';
+import 'package:my_douban/store/global.dart';
 
 class RegisterPage extends StatelessWidget with CommonInterface {
   @override

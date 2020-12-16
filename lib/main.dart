@@ -1,15 +1,13 @@
 import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:my_douban/global.dart';
 import 'package:my_douban/models/User.dart';
+import 'package:my_douban/widgets/splash_widget.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
-import 'mywidgets/splash_widget.dart';
 
-void main1() => Global.init().then((e) => runApp(MyApp()));
 void main() {
   runApp(MyApp());
 }

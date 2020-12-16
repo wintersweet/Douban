@@ -3,9 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:my_douban/models/User.dart';
 import 'package:my_douban/pages/bookAV/hot_movie_page.dart';
 import 'package:my_douban/pages/bookAV/movie_page.dart';
+import 'package:my_douban/store/global.dart';
 import 'package:provider/provider.dart';
 
-import '../../global.dart';
 import 'home_news.dart';
 
 class FlutterTabBarView extends StatelessWidget {

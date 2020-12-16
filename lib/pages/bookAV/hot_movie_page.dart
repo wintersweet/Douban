@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_douban/constants/constant.dart';
-import 'package:my_douban/mywidgets/image/radius_img.dart';
+import 'package:my_douban/widgets/image/radius_img.dart';
 
 import '../../router.dart';
 

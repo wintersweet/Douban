@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_douban/constants/constant.dart';
-import 'package:my_douban/mywidgets/image/LaminatedImage.dart';
+import 'package:my_douban/widgets/image/LaminatedImage.dart';
 
 class TodayPlayMovieWidget extends StatelessWidget {
   final urls;

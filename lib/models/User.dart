@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:my_douban/global.dart';
+import 'package:my_douban/store/global.dart';
 
 class ProfileChangeNotifier extends ChangeNotifier {
   Profile get _profile => Global.profile;
