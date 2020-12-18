@@ -47,7 +47,7 @@ dependencies:
   validators:
   hnpwa_client:
   url_launcher:
-
+  # theme_provider:
 
 dev_dependencies:
   flutter_test:
@@ -55,7 +55,7 @@ dev_dependencies:
 
   build_runner: ^1.8.0
   json_serializable: ^3.2.5
-
+  
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

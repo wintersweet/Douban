@@ -3,7 +3,7 @@ import 'package:my_douban/constants/constant.dart';
 import 'package:my_douban/models/User.dart';
 import 'package:my_douban/models/counter.dart';
 import 'package:my_douban/models/subject_entity.dart';
-import 'package:my_douban/mywidgets/image/heart_img_widget.dart';
+import 'package:my_douban/widgets/image/heart_img_widget.dart';
 import 'package:provider/provider.dart';
 
 import 'login.register/login.dart';

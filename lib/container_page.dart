@@ -50,7 +50,8 @@ class _ContainerPageState extends State<ContainerPage> {
     }
     if (itemList == null) {
       itemList = itemNames
-          .map((item) => BottomNavigationBarItem(
+          .map(
+            (item) => BottomNavigationBarItem(
               icon: Image.asset(
                 item.normalIcon,
                 width: 30.0,
@@ -61,7 +62,9 @@ class _ContainerPageState extends State<ContainerPage> {
                 style: TextStyle(fontSize: 12.0),
               ),
               activeIcon:
-                  Image.asset(item.activeIcon, width: 30.0, height: 30.0)))
+                  Image.asset(item.activeIcon, width: 30.0, height: 30.0),
+            ),
+          )
           .toList();
     }
   }
@@ -94,11 +97,11 @@ class _ContainerPageState extends State<ContainerPage> {
           _getPagesWidget(3),
         ],
       ),
-      backgroundColor: Color.fromARGB(255, 248, 248, 248),
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       bottomNavigationBar: BottomNavigationBar(
         items: itemList,
         onTap: (int index) {
-          print("选中了：$index");
+          print("选中了11：$index");
           setState(() {
             _selectIndex = index;
           });
