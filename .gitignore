@@ -1,3 +1,17 @@
 
 *.nib
 build/ios/iphoneos/Runner.app/Frameworks/fluttertoast.framework/fluttertoast
+build/ios/iphoneos/Runner.app/Runner
+build/ios/iphoneos/Runner.app/Frameworks/App.framework/App
+build/ios/iphoneos/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin
+build/ios/iphoneos/Runner.app/Frameworks/camera.framework/camera
+*.bin
+build/ios/iphoneos/Runner.app/Frameworks/Flutter.framework/Flutter
+build/ios/iphoneos/Runner.app/Frameworks/fluttertoast.framework/fluttertoast
+build/ios/iphoneos/Runner.app/Frameworks/FMDB.framework/FMDB
+build/ios/iphoneos/Runner.app/Frameworks/path_provider.framework/path_provider
+build/ios/iphoneos/Runner.app/Frameworks/shared_preferences.framework/shared_preferences
+build/ios/iphoneos/Runner.app/Frameworks/sqflite.framework/sqflite
+build/ios/iphoneos/Runner.app/Frameworks/url_launcher.framework/url_launcher
+build/ios/iphoneos/Runner.app/Frameworks/video_player.framework/video_player
+build/ios/iphoneos/Runner.app/Runner
