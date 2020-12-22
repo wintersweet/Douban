@@ -106,7 +106,6 @@ class AppTheme {
     );
   }
 
-  /// Additional purple theme constructor
   factory AppTheme.purple({String id}) {
     return AppTheme(
       data: ThemeData(
@@ -144,6 +143,7 @@ class AppTheme {
             borderRadius: BorderRadius.circular(14),
           ),
         ),
+        buttonColor: Colors.purple[100],
       ),
       id: id,
       description: "Default purple Theme",

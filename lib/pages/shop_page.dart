@@ -11,7 +11,7 @@ class _ShopPageState extends State<ShopPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("商店2"),
-        backgroundColor: Colors.green,
+        // backgroundColor: Colors.green,
         actions: <Widget>[
           new PopupMenuButton<String>(
             itemBuilder: (BuildContext context) => <PopupMenuItem<String>>[
@@ -37,7 +37,6 @@ class _ShopPageState extends State<ShopPage> {
       floatingActionButton: showToTop
           ? FloatingActionButton(
               onPressed: () {
-                print('哈哈哈');
                 _controller.animateTo(.0,
                     duration: Duration(milliseconds: 200), curve: Curves.ease);
               },
@@ -109,7 +108,7 @@ class _ShopPageState extends State<ShopPage> {
                     print('打印');
                   },
                   textColor: Colors.white,
-                  color: Colors.blue[200],
+                  color: Theme.of(context).buttonColor,
                 ),
               ],
             ),

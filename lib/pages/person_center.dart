@@ -27,7 +27,6 @@ class _PersonCenterPageState extends State<PersonCenterPage> {
   void requestLogin() async {
     final SubjectEntity entity = SubjectEntity();
     try {
-      List<Subject> lists = await entity.getList();
       if (mounted) {
         print("登陆成功");
         String userName = "马云";
@@ -45,12 +44,6 @@ class _PersonCenterPageState extends State<PersonCenterPage> {
     }
   }
 
-  Widget build11(BuildContext context) {
-    // return ChangeNotifierProvider.value(
-    //   value: new Counter(1),
-    //   child: build11(context),
-    // );
-  }
   @override
   Widget build(BuildContext context) {
     var controller = ThemeProvider.controllerOf(context);
@@ -186,7 +179,8 @@ class _PersonCenterPageState extends State<PersonCenterPage> {
             Expanded(
               child: Text(
                 title,
-                style: TextStyle(fontSize: 15.0),
+                style: TextStyle(
+                    fontSize: 15.0, color: Theme.of(context).buttonColor),
               ),
             ),
             _rightArrow()
