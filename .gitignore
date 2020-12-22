@@ -1,0 +1,3 @@
+
+*.nib
+build/ios/iphoneos/Runner.app/Frameworks/fluttertoast.framework/fluttertoast
