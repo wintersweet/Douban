@@ -10,7 +10,7 @@ class _ShopPageState extends State<ShopPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("商店"),
+        title: Text("商店2"),
         backgroundColor: Colors.green,
         actions: <Widget>[
           new PopupMenuButton<String>(
@@ -99,7 +99,20 @@ class _ShopPageState extends State<ShopPage> {
         controller: _controller, //列表项高度固定时，显式指定高度是一个好习惯(性能消耗小)
         itemBuilder: (context, index) {
           return ListTile(
-            title: Text('我说{$index}行'),
+            title: Row(
+              children: [
+                Text('我说{$index}行'),
+                Container(width: 10),
+                RaisedButton(
+                  child: Text('按钮{$index}'),
+                  onPressed: () {
+                    print('打印');
+                  },
+                  textColor: Colors.white,
+                  color: Colors.blue[200],
+                ),
+              ],
+            ),
           );
         },
       ),

@@ -26,45 +26,46 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         theme: ThemeData(backgroundColor: Colors.white),
         home: Scaffold(
-          body: ContainerPage(),
+          body: ThemeProvider(
+            saveThemesOnChange: true,
+            loadThemeOnInit: false,
+            onInitCallback: (controller, previouslySavedThemeFuture) async {
+              String savedTheme = await previouslySavedThemeFuture;
+
+              controller.setTheme('purple');
+
+              if (savedTheme != null) {
+                controller.setTheme(savedTheme);
+              } else {
+                Brightness platformBrightness =
+                    SchedulerBinding.instance.window.platformBrightness;
+                if (platformBrightness == Brightness.dark) {
+                  controller.setTheme('dark');
+                } else {
+                  controller.setTheme('light');
+                }
+                controller.forgetSavedTheme();
+              }
+            },
+            themes: <AppTheme>[
+              AppTheme.light(id: 'light'),
+              AppTheme.dark(id: 'dark'),
+              AppTheme.purple(id: 'purple'),
+              AppTheme.yellow(id: 'yellow'),
+            ],
+            child: ThemeConsumer(
+              child: Builder(
+                builder: (themeContext) => MaterialApp(
+                  theme: ThemeProvider.themeOf(themeContext).data,
+                  title: 'Material App',
+                  home: ContainerPage(),
+                ),
+              ),
+            ),
+          ),
           resizeToAvoidBottomPadding: false,
         ),
       ),
-      // child: ThemeProvider(
-      //   saveThemesOnChange: true,
-      //   loadThemeOnInit: false,
-      //   onInitCallback: (controller, previouslySavedThemeFuture) async {
-      //     String savedTheme = await previouslySavedThemeFuture;
-
-      //     if (savedTheme != null) {
-      //       controller.setTheme(savedTheme);
-      //     } else {
-      //       Brightness platformBrightness =
-      //           SchedulerBinding.instance.window.platformBrightness;
-      //       if (platformBrightness == Brightness.dark) {
-      //         controller.setTheme('dark');
-      //       } else {
-      //         controller.setTheme('light');
-      //       }
-      //       controller.forgetSavedTheme();
-      //     }
-      //   },
-      //   themes: <AppTheme>[
-      //     AppTheme.light(id: 'light'),
-      //     AppTheme.dark(id: 'dark'),
-      //     AppTheme.purple(id: 'purple'),
-      //     // AppTheme.yellow(id: 'yellow'),
-      //   ],
-      //   child: ThemeConsumer(
-      //     child: Builder(
-      //       builder: (themeContext) => MaterialApp(
-      //         theme: ThemeProvider.themeOf(themeContext).data,
-      //         title: 'Material App',
-      //         home: ContainerPage(),
-      //       ),
-      //     ),
-      //   ),
-      // ),
     );
   }
 }

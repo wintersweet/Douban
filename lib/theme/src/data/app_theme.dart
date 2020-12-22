@@ -110,11 +110,40 @@ class AppTheme {
   factory AppTheme.purple({String id}) {
     return AppTheme(
       data: ThemeData(
-        primaryColor: Colors.purple,
-        accentColor: Colors.pink,
+        primaryColor: Colors.white,
+        primarySwatch: Colors.yellow,
         scaffoldBackgroundColor: Colors.purple[100],
-        buttonColor: Colors.red,
-        dialogBackgroundColor: Colors.purple[100],
+        highlightColor: Colors.transparent,
+        splashColor: Colors.transparent,
+        cursorColor: Colors.transparent,
+        appBarTheme: AppBarTheme(
+          brightness: Brightness.light,
+          color: Colors.white,
+          elevation: 0,
+          textTheme: TextTheme(
+            subtitle1: TextStyle(color: Colors.white, fontSize: 18),
+          ),
+        ),
+        iconTheme: IconThemeData(color: Colors.white),
+        primaryIconTheme: IconThemeData(color: Colors.white),
+        tabBarTheme: TabBarTheme(
+          labelStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+          unselectedLabelStyle: TextStyle(fontWeight: FontWeight.w400),
+          unselectedLabelColor: Colors.white.withOpacity(0.48),
+          indicatorSize: TabBarIndicatorSize.label,
+          labelColor: Colors.white,
+          labelPadding: const EdgeInsets.symmetric(vertical: 4, horizontal: 15),
+        ),
+        dividerTheme: DividerThemeData(
+          color: Colors.green,
+          space: 1.0,
+        ),
+        popupMenuTheme: PopupMenuThemeData(
+          color: Colors.purple[100],
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+        ),
       ),
       id: id,
       description: "Default purple Theme",

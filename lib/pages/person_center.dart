@@ -3,6 +3,7 @@ import 'package:my_douban/constants/constant.dart';
 import 'package:my_douban/models/User.dart';
 import 'package:my_douban/models/counter.dart';
 import 'package:my_douban/models/subject_entity.dart';
+import 'package:my_douban/theme/theme_provider.dart';
 import 'package:my_douban/widgets/image/heart_img_widget.dart';
 import 'package:provider/provider.dart';
 
@@ -52,6 +53,7 @@ class _PersonCenterPageState extends State<PersonCenterPage> {
   }
   @override
   Widget build(BuildContext context) {
+    var controller = ThemeProvider.controllerOf(context);
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
@@ -113,6 +115,9 @@ class _PersonCenterPageState extends State<PersonCenterPage> {
               ),
               _dividerSpace(),
               _personItem('ic_me_journal.png', '我的发布', onTab: _onClick()),
+              _personItem('ic_me_journal.png', '切换主题', onTab: () {
+                controller.nextTheme();
+              }),
               _personItem('ic_me_follows.png', '我的关注'),
               _personItem('ic_me_photo_album.png', '相册'),
               _personItem('ic_me_doulist.png', '豆列/收藏'),
