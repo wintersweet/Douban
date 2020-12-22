@@ -1,17 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
 
-*.nib
-build/ios/iphoneos/Runner.app/Frameworks/fluttertoast.framework/fluttertoast
-build/ios/iphoneos/Runner.app/Runner
-build/ios/iphoneos/Runner.app/Frameworks/App.framework/App
-build/ios/iphoneos/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin
-build/ios/iphoneos/Runner.app/Frameworks/camera.framework/camera
-*.bin
-build/ios/iphoneos/Runner.app/Frameworks/Flutter.framework/Flutter
-build/ios/iphoneos/Runner.app/Frameworks/fluttertoast.framework/fluttertoast
-build/ios/iphoneos/Runner.app/Frameworks/FMDB.framework/FMDB
-build/ios/iphoneos/Runner.app/Frameworks/path_provider.framework/path_provider
-build/ios/iphoneos/Runner.app/Frameworks/shared_preferences.framework/shared_preferences
-build/ios/iphoneos/Runner.app/Frameworks/sqflite.framework/sqflite
-build/ios/iphoneos/Runner.app/Frameworks/url_launcher.framework/url_launcher
-build/ios/iphoneos/Runner.app/Frameworks/video_player.framework/video_player
-build/ios/iphoneos/Runner.app/Runner
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Podfile.lock
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+**/*.r.dart
+**/*.m.dart
+**/*.g.dart
+**/pubspec.lock
+**/.flutter-plugins-dependencies
